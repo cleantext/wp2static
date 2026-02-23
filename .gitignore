@@ -10,6 +10,7 @@
 /integration-tests/wordpress/
 /vendor/
 /vendor_prefixed/
+/release/
 node_modules/
 coverage/
 admin/*.js*
