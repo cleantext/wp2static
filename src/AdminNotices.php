@@ -33,9 +33,9 @@ class AdminNotices {
      * Displays WP2Static admin notices
      */
     public static function showAdminNotices() : void {
-        if ( ! ( new self() )->userAllowedToSeeNotices() ) {
+        // if ( ! ( new self() )->userAllowedToSeeNotices() ) {
             return;
-        }
+        // }
 
         // avoid missing table error for git users who don't re-activate plugin
         global $wpdb;
