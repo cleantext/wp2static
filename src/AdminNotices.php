@@ -265,6 +265,9 @@ class AdminNotices {
      * @return string[]
      */
     public function getNoticeContents( string $notice_name ) {
+
+        return; // No, thanks.
+
         $notice_contents = [];
         switch ( $notice_name ) {
             case 'generic':
